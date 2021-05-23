@@ -1,0 +1,23 @@
+.progress {
+	margin: 2px;
+	width: auto;
+	background-color: #dce8f8; 
+	height:12px
+}
+
+.progress-bar{
+	background-color: #149ddd;
+	color: black;
+} 
+
+.skill {
+    padding: 5px 0;
+    margin: 0 0 6px 0;
+    display: block;
+    font-weight: 400;
+    color: #050d18;
+}
+.val {
+    float: right;
+    font-style: normal;
+}

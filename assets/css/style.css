@@ -1,0 +1,237 @@
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+@media (min-width: 1024px){
+	.inputForm {
+		width: 58%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.card-custom{
+		width:auto;
+		height:auto;
+		margin: 30px 120px;		
+	}
+	.searchForm{
+		width: 46%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.card-custom{
+		width:auto;
+		height:auto;
+		margin: 30px 120px;
+	}
+	
+	.searchForm{
+		width: 38%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.row{
+		margin:10px 20px;
+	}
+	
+	.card-custom{
+		width:auto;
+		height:auto;
+		margin: 30px 0 30px 30px;
+	}
+	.searchForm{
+		width: 20%;
+	}
+}
+
+/*--------------------------------------------------------------
+# Search
+--------------------------------------------------------------*/
+.searchForm{
+	border: 1px solid #818382;
+    border-radius: 8px;
+}
+
+.inputForm {
+    border-width: 0px;
+    border-style: inset;
+    border-color: #fff;
+    margin: 10px;
+}
+
+/*--------------------------------------------------------------
+# Image Card
+--------------------------------------------------------------*/
+
+.card{
+	border-radius: 1rem;
+}
+
+.card-custom{
+	box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+	border-radius: 1rem;
+}
+
+.card-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px);
+}
+
+.timeClass{
+	font-size: 20px;
+	color: #03AC13;
+	margin: 30px 0px 0px 32px;
+	font-weight: 900px;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+.table{
+	width:100%;
+}
+ 
+.container{
+	overflow-x: auto;
+}
+
+.table1{
+	width: 100%;
+    margin-bottom: 1rem;
+    color: #55595c;
+}
+.table1 td{
+	padding: 10px;
+} 
+.table1 th{
+	padding: 15px;
+	font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+
+
+.social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+.social a {
+  transition: color 0.3s;
+  color: #222222;
+  margin: 0 3px;
+  padding-top: 7px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  background: rgba(16, 110, 234, 0.8);
+  display: inline-block;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+.social a:hover {
+  background: #3b8af2;
+}
+
+.social i {
+  font-size: 18px;
+}
+
+.card-custom:hover .social {
+  opacity: 1;
+  bottom: 95px;
+}
+
+
+/*--------------------------------------------------------------
+# Different Button
+--------------------------------------------------------------*/
+.btnclass {
+    border: none;
+    padding: 5px 8px;
+	margin: 5px;
+    background: linear-gradient(to right, #09C6F9, #045DE9);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.btnclass2 {
+    border: none;
+    padding: 12px;
+	margin-top:10px;
+    background: linear-gradient(to right, #23A329, #00B712);
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+.btnclass3 {
+    border: none;
+    padding: 8px;
+    background: linear-gradient(to right, #FF2A00, #FF0080);
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
